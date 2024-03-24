@@ -1,0 +1,36 @@
+.home{
+    background-color: rgb(162, 162, 196,0.5);
+    padding: 1rem 4rem;
+}
+
+
+.home-bottom{
+    display: flex;
+    justify-content: space-between ;
+}
+
+.home-bottomleft{
+    
+    flex: 0.25;
+    
+}
+
+.home-bottomiddle{
+    margin: 0 auto;
+    flex: 0.5;
+    
+}
+
+.home-bottomright{
+           
+    flex: 0.25;
+    
+}
+
+.usercordianteshomepagesleftsidesbar{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+

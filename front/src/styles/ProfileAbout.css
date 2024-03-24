@@ -1,0 +1,54 @@
+.Profileabout{
+    background-color:rgb(237, 237, 227);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:  2px 2px gray; 
+    max-width: 250px;
+    min-width: 250px;
+    min-height:300px;
+}
+
+.Profileabout-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Profileabout-contenttop-head{
+    padding: 0.5rem 0.2rem;
+    font-weight: bolder;
+    font-size: large;
+    border-bottom: 2px solid gray;
+}
+
+.Profileabout-contentcenter-story{
+    padding: 0.5rem 0;
+    border-bottom: 2px solid gray;
+    
+}
+
+.Profileabout-contentbottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1rem 0;
+}
+
+.Profileabout-contentbottominfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.Profileabout-contentbottominfo-head{
+    font-size: medium;
+    font-weight:700;
+    color: black;
+}
+
+.Profileabout-contentbottominfo-body{
+    align-self: flex-end;
+    font-size: small;
+    font-weight: 200;
+}

@@ -1,0 +1,245 @@
+.messagespage{
+    background-color: rgb(162, 162, 196,0.5);
+    display: flex;
+}
+
+.messages{
+    width: 1000px;
+    max-width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+.messagesleftside{
+    padding: 1rem 0.5rem;
+    border-radius: 20px 0 0 20px;
+    overflow-y: auto;
+    min-width: fit-content;
+}
+
+.deletemessagechat{
+    opacity:0
+
+}
+
+.rightsidecontentmessagesours:hover .deletemessagechat{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.messagesrightside{
+ 
+    width: 100%;
+    border-radius: 0 20px 20px 0;
+    padding: 1rem .5rem;
+}
+
+.leftsidecontentsearch{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3468C0;
+    padding: 5px;
+    border-radius: 10px;
+    height: 30px;
+    width: 240px;
+   
+}
+
+.leftsidecontentsearchinput{
+ outline: none;
+ border-radius: 5px;
+ margin-right: 3px;
+ border: 1px solid white;
+ background-color: transparent;
+ color: white;
+ padding: 10px;
+}
+
+.leftsidecontentsearchinput::placeholder {
+    color: #ffffff;
+}
+
+.leftsidecontentsearchbutton{
+ border-radius: 4px;
+ background-color: rgb(22, 21, 18);
+ border: 2px solid transparent;
+ cursor: pointer;
+ padding: 0 5px;
+ color: white;
+}
+
+.leftsidecontentuserlist{
+    background-color: #86A7FC;
+    margin: .5rem 0;
+    border-radius: 10px;
+}
+
+.rightsidecontent{
+    display: flex;
+    flex-direction: column;    
+    height: 100%;
+}
+
+.rightsidecontentmessages{
+    margin-top: 10px;
+    flex: 1;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.rightsidecontentinput{
+    background-color: #3468C0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    border-radius : 20px; 
+    gap: 5px;
+
+}
+
+.rightsidecontentinputtext{
+    outline: none;
+    border: 2px solid black;
+    font-size: medium;
+    font-weight: 400;
+    padding: 0 5px;
+    border-radius: 7px;
+}
+
+.rightsidecontentinputbutton{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* .msgdisplay{
+    margin: 20px 0;
+    border: 2px solid gray;
+    padding: 10px;
+} */
+
+.msgdisplayinfouser{
+    display: flex;
+    align-items: center;
+}
+
+.msgdisplayinfouseravatar{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    padding: 5px;
+    border: 2px solid rgb(26, 1, 1);
+    border-radius: 20px 0 0 0;
+}
+
+.msgdisplayinfouseravatartwo{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    padding: 5px;
+    border: 2px solid rgb(26, 1, 1);
+    border-radius: 0px 75px 0 0px;
+}
+
+.msgdisplayinfouserusername{
+    margin-left: 10px;
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    word-spacing: 1.3px;
+
+}
+
+.msgdisplayinfocontent{
+    background-color: #86A7FC;
+    padding: 10px;
+    font-size: 13px;
+    margin: 5px 0;
+    border-radius: 10px ;
+    color: aliceblue;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.msgdisplaytime{
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.rightsidecontentmessages-chatbox{
+    
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.rightsidecontentmessagesother{
+    background-color: #9d9c9c72;
+    font-size: medium;
+    align-self: flex-start;
+    width: 200px;
+}
+
+.rightsidecontentmessagesours{
+    background-color: #FFDD95;
+    align-self: flex-end;
+    width: 200px;
+    margin: 10px 5px;
+    
+}
+
+
+
+
+.rightsidecontentinputmsg-mediadivitemdelete{
+    position: absolute;
+    top : -3%;
+    left: 1%;
+    opacity: 0;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    vertical-align: middle;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.rightsidecontentinputmsg-mediadivitem:hover span{
+    opacity: 1;
+}
+
+.rightsidecontentinputmsg-mediadivitem{
+    position: relative;
+}
+
+.rightsidecontentinputmsg-mediadiv{
+    
+    margin-top: 5px;
+    max-height: 100px;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    margin: 5px;
+    background-color: wheat;
+}
+
+img.statusmsg-middleimages,
+video.statusmsg-middleimages{
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+}

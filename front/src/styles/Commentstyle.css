@@ -1,0 +1,128 @@
+.inputpostcomments{
+    display: flex;
+    background-color: black;
+    border-radius: 6px;
+    padding: 5px 5px;
+    margin-top: 5px;
+}
+
+.inputpostcomments-left img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    object-fit: cover;
+    border : 2px solid gray;
+    padding:  2px;
+}
+
+.inputpostcomments-input{
+    outline: none;
+    border : 2px solid gray;
+    border-radius: 5px;
+    margin : 0rem 3px;
+    padding: 0 5px;
+    width: 100%;
+}
+
+.inputpostcomments-button{
+    border: 2px solid gray;
+    background-color: rgb(229, 219, 219);
+    width: 100px;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.postCommentCard{
+    background-color: rgb(250, 241, 241);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 2px solid gray;
+    position: relative;
+}
+
+.postcommentcarduser{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.postcommentcardfullname{
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.postcommentcardtime{
+    font-size: 10px;
+    color: black;
+    font-weight: 400;
+}
+
+.postcommentcardavatar{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right:10px ;
+}
+
+.postcommentcarduserinfo{
+    display: flex;
+    margin-bottom: 5px;
+    
+}
+
+.postcommentcardcommentcontent{
+    padding: 10px 5px;
+    border-top: 1px solid gray;
+}
+
+.postcommentcardcommentcontentcontent{
+    font-weight: 500;
+    color: gray;
+}
+
+.postcommentcardcommentcontentlikes{
+    display: flex;
+    margin-top: 10px;
+}
+
+.postcommentcardcommentcontentreply{
+    margin-left: 15px;
+}
+
+.postcommentcardcommentcontentlikescount{
+    margin-right: 5px;
+}
+
+.CommentMenuItemlist{
+    position : absolute;
+    background-color: gray;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    transform: translateX(-50px);
+    z-index: 9;
+}
+
+.CommentMenuItemedit{
+    font-size: 10px;
+    padding: 6px;
+    font-weight: 900;
+    border-bottom: 1px solid yellow;
+}
+
+.CommentMenuItemdelete{
+    font-size: 10px;
+    padding: 6px;
+    font-weight: 900;
+}
+
+.postCommentCardLikeButton{
+    position: absolute;
+    top : 1.26rem;
+    right: 9%;
+}

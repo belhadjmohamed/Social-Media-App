@@ -1,0 +1,128 @@
+.editprofile{
+    position: fixed;
+    top:0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1100;
+    flex-direction: column;
+    background-color: rgb(116, 94, 142,0.5);
+    overflow: auto;
+}
+
+.editprofile-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(34, 10, 57);
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.editprofile-head{
+    display: flex;
+    justify-content: space-between;
+    min-width: 50%;
+    padding: 5px 0;
+    
+}
+
+.editprofile-headtitle{
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.editprofile-headclose{
+    background-color: black;
+    border: 1px solid white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    font-weight: 900;    
+    color: white;
+}
+
+.editprofile-avatar{
+    width: 150px;
+    height: 150px;
+    padding: 1rem 0;
+    position: relative;
+}
+
+i{
+    position: absolute;
+    bottom: 40%;
+    right: 35%;
+    font-size: x-large;
+    background-color: rgba(171, 165, 165, 0.526);
+    color: black;
+    width: 15%;
+    height: 15%;
+    vertical-align: center;
+    border-radius: 10px;
+    opacity: 0;
+    padding: 1rem;
+
+}
+
+.editprofile-avatar:hover i{
+    opacity: 1;
+}
+
+.editprofile-avatar img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.editprofile-userdata{
+    display: flex;
+    
+    width: 100%;
+}
+
+.editprofile-userdatafullname, .editprofile-userdataaddress, .editprofile-userdatawebsite
+, .editprofile-userdataphone, .editprofile-userdatastory{
+    padding: .5rem;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin: .5rem;
+    color: black;
+}
+.editprofile-userdata p{
+    font-size: small;
+}
+.editprofile-userdata input{
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    
+}
+
+.editbuttonsubmit{
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 1rem;
+    padding: .5rem; 
+    cursor: pointer;
+    font-weight: bold;
+}

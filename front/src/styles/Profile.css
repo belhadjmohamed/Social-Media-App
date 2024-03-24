@@ -1,0 +1,114 @@
+.profilebody{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: auto;
+    width: 1200px;
+    margin-top: 10px;
+    
+}
+
+.profileheader{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 300px;
+    max-width: 100%;
+    border-radius: 20px;
+    background-color: rgb(237, 237, 227);
+    box-shadow:  3px 3px 15px gray; 
+}
+
+.profileheader-user{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+.profileheader-user img{
+    width: 50%;
+    height: fit-content;
+    border-radius: 50%;
+    
+}
+
+.profileheader-items{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;    
+   
+}
+.profileheader-items-item{
+    display: flex;
+    align-items: center;
+}
+
+.profileheader-items .MuiSvgIcon-root{
+    color: blueviolet ;
+}
+
+.profilebodyleft{
+    flex: 0.1;
+}
+
+.profilebodycenter{
+    flex: 0.6;
+}
+
+.profilebodyright{
+    flex: 0.1;
+}
+
+.friends-profileheader{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.following-profileheader{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.location-profileheader{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.saveds-profileheader{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5rem   ;
+}
+
+.mapcontainer-style{
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    height: 700px;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.buttonmap{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttonmap button{
+    width: 100px;
+    font-size: 1rem;
+    padding: 5px;
+    background-color: rgb(238, 234, 234);
+    border-radius: 10px;
+}
+
+.buttonmap button:hover{
+    cursor: pointer;
+    background-color: aqua;
+}

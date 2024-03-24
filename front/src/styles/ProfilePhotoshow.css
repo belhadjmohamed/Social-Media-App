@@ -1,0 +1,24 @@
+
+.profilephotoshoww{
+    padding: 1rem;
+    background-color: violet;
+    width: 250px;
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+
+.profilephotosshowimages{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+.profilevideosshowimages{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 0.5rem;
+    margin:  0.25rem 1rem;
+}

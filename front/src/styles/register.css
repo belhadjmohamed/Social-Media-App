@@ -1,0 +1,123 @@
+.Register-background{
+    background-image: url('../background_image.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Register{
+    background-color: white;
+    width:80%;
+    height: 80%;    
+    border-radius: 1rem;
+}
+
+.Register-2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.image-err-reg{
+    height: 80%;
+    width: 60%;
+   margin-top: 2rem;
+   margin-left: 1.1rem;
+   border-radius: 10px;
+   border: 2px solid black;
+}
+
+.Register-3{    
+    display: flex;
+    height: 100%;
+    gap: 3rem;
+}
+
+.Register-header{
+    padding-left: 1rem;
+    padding-top: 10px;
+}
+
+
+.Register-subheader{
+    text-align: center;
+    font-family : 'calibre';
+}
+
+
+
+.Register-dataform{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 1rem;
+}
+
+input.register-input {
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    border: 4px solid #aaa;
+    padding-left: 5px;
+}
+
+.gender-register{
+    margin-right: auto;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    border: 4px solid #aaa;
+    padding-left: 5px;   
+}
+
+button.btn-register-submit{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+    font-size: 1rem;
+    margin: auto;
+}
+
+button.login-here{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
+button.login-here:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+button.btn-register-submit:hover{
+    background-color: rgb(17, 208, 238);
+    cursor: pointer;
+}
+input.register-input:focus{
+    border: 4px solid ;
+}
+
+.div-button-register{
+    display: flex;
+    flex-direction: column;
+    gap : .4rem;
+}
+
+p.login-here{
+    margin : auto;
+}
+
+p.login-here a{
+    color: blue;
+    cursor: pointer;
+}
